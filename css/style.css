@@ -1,3 +1,10 @@
+:root {
+  --lightColor: #ffffff;
+  --mediumLightColor: #d6e2f0;
+  --mediumDarkColor: #7b879d;
+  --darkColor: #1f3251;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,16 +13,22 @@
 }
 
 body {
-  background-color: #d6e2f0;
+  background-color: var(--mediumLightColor);
 }
 
 .container {
+  position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   text-align: center;
+}
+
+.cardContainer {
+  margin: 10px;
 }
 
 .card {
@@ -24,7 +37,7 @@ body {
   margin: 24px;
   padding: 16px;
   border-radius: 20px;
-  background-color: #ffffff;
+  background-color: var(--lightColor);
   box-shadow: 0px 20px 20px #1f32510d;
 }
 
@@ -39,17 +52,22 @@ body {
 
 .card-text h1 {
   font-size: 22px;
+  font-weight: 700;
   line-height: 30px;
-  color: #1f3251;
+  color: var(--darkColor);
 }
 
 .card-text p {
   margin: 20px 0px;
   font-size: 15px;
   line-height: 18px;
-  color: #7b879d99;
+  color: var(--mediumDarkColor);
 }
 .attribution {
+  position: absolute;
+  bottom: 0px;
+  margin: 10px 0px;
+  text-align: center;
   font-size: 10px;
 }
 .attribution a {
