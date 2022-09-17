@@ -4,6 +4,10 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
+## Mobile Design
+
+<img src="./images/mobile-design.jpg" alt="mobile-design" style="width:20%;"/>
+
 ## Links
 
 - Live site URL: [QR code component](https://melissavi08.github.io/qr-code-component/index.html)
